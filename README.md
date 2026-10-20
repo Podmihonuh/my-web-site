@@ -101,7 +101,7 @@ graph TB
     style Counters fill:#a29bfe,color:#fff
 ```
 ## Лицензия
-Проект создан с учётом лицензии [MIT]()
+Проект создан с учётом лицензии [MIT](./LICENSE)
 
 ---
 
