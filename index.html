@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Мой игровой профиль — Главная</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="header">
+    <div class="logo">
+      <span class="logo-icon">🎮</span>
+      <span class="logo-text">GameProfile</span>
+    </div>
+    <nav class="nav">
+      <a href="index.html" class="active">Главная</a>
+      <a href="about.html">Обо мне</a>
+      <a href="blog.html">Блог</a>
+      <a href="contact.html">Контакты</a>
+      <button id="theme-toggle" class="theme-btn" aria-label="Переключить тему">🌙</button>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Hero-секция с анимацией -->
+    <section class="hero">
+      <div class="hero-content">
+        <h1 class="animate-fade-in">Привет, я <span class="accent">BullDozer</span></h1>
+        <p class="animate-fade-in delay-1">Игровой профиль в Steam, PlayStation, Xbox и Nintendo. Люблю инди, соулслайки и кооперативы.</p>
+        <a href="about.html" class="btn animate-fade-in delay-2">Узнать больше</a>
+      </div>
+      <div class="hero-avatar animate-float">
+        <div class="avatar-circle"><img src="./img/PSX_20240701_205315[1].jpg" alt=""></div>
+      </div>
+    </section>
+
+    <!-- Статистика проекта (игровая) -->
+    <section class="stats">
+      <h2>Моя статистика</h2>
+      <div class="stats-grid">
+        <div class="stat-card animate-on-scroll">
+          <span class="stat-number" data-target="1240">0</span>
+          <span class="stat-label">Часов в Steam</span>
+        </div>
+        <div class="stat-card animate-on-scroll">
+          <span class="stat-number" data-target="87">0</span>
+          <span class="stat-label">Платин в PlayStation</span>
+        </div>
+        <div class="stat-card animate-on-scroll">
+          <span class="stat-number" data-target="42">0</span>
+          <span class="stat-label">Игр пройдено</span>
+        </div>
+        <div class="stat-card animate-on-scroll">
+          <span class="stat-number" data-target="15">0</span>
+          <span class="stat-label">Друзей онлайн</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Быстрые ссылки на сервисы -->
+    <section class="quick-links">
+      <h2>Мои профили</h2>
+      <div class="links-grid">
+        <a href="#" class="link-card steam animate-on-scroll">
+          <span class="link-icon">🖥️</span>
+          <span>Steam</span>
+        </a>
+        <a href="#" class="link-card ps animate-on-scroll">
+          <span class="link-icon">🎮</span>
+          <span>PlayStation</span>
+        </a>
+        <a href="#" class="link-card xbox animate-on-scroll">
+          <span class="link-icon">🟢</span>
+          <span>Xbox</span>
+        </a>
+        <a href="#" class="link-card nintendo animate-on-scroll">
+          <span class="link-icon">🔴</span>
+          <span>Nintendo</span>
+        </a>
+      </div>
+    </section>
+
+    <!-- Последние новости (кратко) -->
+    <section class="latest-news">
+      <h2>Последние новости</h2>
+      <div class="news-list">
+        <article class="news-item animate-on-scroll">
+          <h3>Прошёл Elden Ring: Shadow of the Erdtree</h3>
+          <p>Заняло 40 часов, но это было эпично. Делюсь впечатлениями в блоге.</p>
+          <time>10 марта 2025</time>
+        </article>
+        <article class="news-item animate-on-scroll">
+          <h3>Собрал новый ПК для стримов</h3>
+          <p>Теперь можно стримить в 1440p без просадок. Скоро запущу канал.</p>
+          <time>5 марта 2025</time>
+        </article>
+      </div>
+      <a href="blog.html" class="btn btn-outline">Все новости →</a>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© 2025 GameProfile. Сделано с ❤️ к играм.</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
